@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "phoenix": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "phoenix",
+    "password": "",
+    "name": "phoenix",
+    "user": "",
+    "connector": "mongodb"
   }
 }

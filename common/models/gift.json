@@ -13,7 +13,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "donor": {
+      "type": "belongsTo",
+      "model": "Donor",
+      "foreignKey": ""
+    },
+    "reciever": {
+      "type": "belongsTo",
+      "model": "Reciever",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

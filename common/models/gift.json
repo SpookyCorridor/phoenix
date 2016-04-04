@@ -10,6 +10,9 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "reserved": {
+      "type" : "boolean"
     }
   },
   "validations": [],
@@ -26,5 +29,7 @@
     }
   },
   "acls": [],
-  "methods": {}
+  "methods": {
+
+  }
 }
